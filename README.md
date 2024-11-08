@@ -1,53 +1,60 @@
-# Sentiment Analysis using NLP
+# Sentiment Analysis Project
 
-This repository contains a simple Sentiment Analysis project using Natural Language Processing (NLP) techniques and TensorFlow. The model is trained on the [Kaggle Sentiment Analysis dataset](https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset). It classifies text into **positive**, **neutral**, or **negative** sentiments.
+This project implements a sentiment analysis model using TensorFlow and TensorFlow Hub. Below is the setup and dependency information to ensure compatibility and smooth functioning of the code.
 
-## Features
-- Preprocessing of text data (cleaning and transforming)
-- Universal Sentence Encoder (USE) for embedding textual data
-- Deep learning model with dense layers and dropout for regularization
-- Early stopping to prevent overfitting
-- Prediction of sentiment for user-inputted sentences
+## Project Overview
+This repository includes a deep learning model for sentiment analysis. The model is built using TensorFlow and utilizes pre-trained embeddings from TensorFlow Hub.
 
-## Tech Stack
-- Python
-- TensorFlow 2.8.0
-- TensorFlow Hub
-- Universal Sentence Encoder (USE)
-- Pandas, NumPy, Scikit-learn
+## Dependencies
 
-## Getting Started
+To ensure proper functionality, please use the specific versions of the libraries below:
 
-### 1. Install Dependencies:
-Install the required libraries using pip:
+- **Python**: 3.6, 3.7, or 3.8 (recommended: Python 3.7)
+- **TensorFlow**: 2.8.0
+- **TensorFlow Hub**: 0.12.0
+- **Numpy**: 1.19.5
+- **Protobuf**: 3.19.4
+- **TensorBoard**: 2.8.0
+- **h5py**: 3.1.0
+- **six**: 1.15.0
+- **grpcio**: 1.43.0
+- **wheel**: 0.36.2
+
+## Installation
+
+To set up the environment, follow these installation instructions:
+
+1. **Create a virtual environment (optional but recommended)**:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+
+2. **Install the dependencies**:
+    ```bash
+    pip install tensorflow==2.8.0
+    pip install tensorflow-hub==0.12.0
+    pip install numpy==1.19.5
+    pip install protobuf==3.19.4
+    pip install tensorboard==2.8.0
+    pip install h5py==3.1.0
+    pip install six==1.15.0
+    pip install grpcio==1.43.0
+    pip install wheel==0.36.2
+    ```
+
+## Usage
+
+Run the Python scripts or Jupyter notebooks provided in the repository to train and test the sentiment analysis model.
+
+```bash
+python script_name.py  # Replace with the actual script name
 ```
-pip install tensorflow==2.8.0 tensorflow-hub==0.12.0
-```
 
-### 2. Clone the Repository:
-```
-git clone https://github.com/yourusername/sentiment-analysis-nlp.git
-cd sentiment-analysis-nlp
-```
+## Model Training and Saving
 
-### 3. Download Dataset:
-Place the train and test datasets in the same directory.
+This project uses a pre-trained Universal Sentence Encoder from TensorFlow Hub and fine-tunes it using a neural network built with Keras.
 
-### 4. Run the Notebook:
-Launch the notebook or script to train the model:
-```
-python Sentiment_Analysis.ipynb
-```
+## License
 
-## Key Components
-- **Data Preprocessing**: Text cleaning and normalization.
-- **Model**: Uses Universal Sentence Encoder for embedding and a custom deep neural network with multiple dense layers and dropout to avoid overfitting.
-- **Evaluation**: Accuracy, precision, recall, and F1-score metrics are used for evaluating the model.
-- **User Input**: The model can predict the sentiment of custom sentences entered by the user.
-
-## Example Usage
-
-```
-Enter your sentence: I love this product!
-Emotion: Positive 😊
-```
+This project is licensed under the MIT License. See the LICENSE file for details.
