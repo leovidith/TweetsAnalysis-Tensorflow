@@ -6,7 +6,7 @@ import re
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model(r"C:\Users\saivi\Downloads\Model.h5", custom_objects={'KerasLayer': hub.KerasLayer})
+model = tf.keras.models.load_model(r"path_to_your_model", custom_objects={'KerasLayer': hub.KerasLayer})
 
 sentiment_labels = {0: 'Negative 🤬', 1: 'Neutral 😐', 2: 'Positive 😊'}
 
