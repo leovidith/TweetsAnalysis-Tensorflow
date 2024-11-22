@@ -2,6 +2,14 @@
 
 This project implements a sentiment analysis model using TensorFlow and TensorFlow Hub. Below is the setup and dependency information to ensure compatibility and smooth functioning of the code.
 
+---
+
+## Dataset Visualization
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/bar%20graph.png" width="600">
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/density%20plot.png" width="600">
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/pie%20chart.png" width="600">
+
+
 ## Project Overview
 This repository includes a deep learning model for sentiment analysis. The model is built using TensorFlow and utilizes pre-trained embeddings from TensorFlow Hub.
 
