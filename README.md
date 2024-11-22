@@ -1,4 +1,4 @@
-# Sentiment Analysis Project
+# Twitter tweets Analysis Project
 
 This project implements a sentiment analysis model using TensorFlow and TensorFlow Hub. Below is the setup and dependency information to ensure compatibility and smooth functioning of the code.
 
