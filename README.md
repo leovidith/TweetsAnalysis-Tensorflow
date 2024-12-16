@@ -2,24 +2,9 @@
 
 This project implements a sentiment analysis model using TensorFlow and TensorFlow Hub.
 
-## Dataset Visualization
-
-The following visualizations provide insights into the dataset:
-
-- **Bar Graph**:
-  ![Bar Graph](https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/bar%20graph.png)
-
-- **Density Plot**:
-  ![Density Plot](https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/density%20plot.png)
-
-- **Pie Chart**:
-  ![Pie Chart](https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/pie%20chart.png)
-
-
 ## Project Overview
 
 This repository includes a deep learning model for sentiment analysis, designed to classify tweets as positive, negative, or neutral. The model is built using **TensorFlow** and utilizes pre-trained embeddings from **TensorFlow Hub**. The process includes loading the dataset, preprocessing the text, training the sentiment analysis model, and evaluating its performance.
-
 
 ## Features
 
@@ -28,15 +13,11 @@ This repository includes a deep learning model for sentiment analysis, designed 
 - **Task**: Multi-class sentiment classification (positive, negative, neutral).
 - **Framework**: TensorFlow 2 and `tf.keras`.
 
-
 ## Results
 
-The following visualizations provide insights into the dataset:
-
-- **Bar Graph**: Shows the distribution of sentiment labels across the dataset.
-- **Density Plot**: Displays the distribution of sentiment scores across different classes.
-- **Pie Chart**: Visualizes the percentage of positive, negative, and neutral tweets.
-
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/bar%20graph.png" width="600">
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/density%20plot.png" width="600">
+<img src="https://github.com/leovidith/TweetsAnalysis-Tensorflow/blob/main/images/pie%20chart.png" width="600">
 
 ## Sprint Features
 
@@ -60,11 +41,6 @@ The following visualizations provide insights into the dataset:
 - Fine-tune the model based on evaluation results for optimal performance.
 - **Deliverable**: Optimized model with improved evaluation metrics.
 
-
 ## Conclusion
 
 The Twitter Sentiment Analysis project demonstrates how transfer learning with pre-trained models like the Universal Sentence Encoder can be leveraged to quickly build a high-performing sentiment analysis model. The model successfully classifies tweets into positive, negative, and neutral categories. Future improvements may include experimenting with different neural network architectures and fine-tuning hyperparameters for better accuracy.
-
----
-
-Let me know if you'd like further adjustments!
